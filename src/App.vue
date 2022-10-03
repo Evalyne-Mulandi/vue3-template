@@ -28,7 +28,8 @@ nav a.router-link-exact-active {
 
 <script>
   import Nav from '@/components/Nav.vue'
+
 export default {
-  components:{Nav}
+  components:{ Nav }
 }
 </script>

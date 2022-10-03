@@ -8,8 +8,10 @@
     <router-link to="/contactus">Contact us</router-link> 
     
   </nav>
-  <div class=" uppercase text-white font-mono font-extrabold flex justify-center items-center flex-row gap-x-1"><span><svg class="w-6 h-6 dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z"></path></svg></span><router-link to="/login">Signup</router-link></div>
-  
+  <div class=" flex justify-center items-center gap-x-3 uppercase">
+   <span class=" uppercase text-white font-mono font-extrabold flex justify-center items-center flex-row gap-x-1"><span><svg class="w-6 h-6 dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z"></path></svg></span><router-link to="/signup">Signup</router-link></span>
+ <span class="lowercase text-white font-sans font-extrabold justify-center items-center flex-row"><router-link to="/login" class=" uppercase">login</router-link></span>
+  </div>
    </main>
 </template>
 
